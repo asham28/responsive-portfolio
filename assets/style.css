@@ -185,7 +185,7 @@ form {
 
 @media screen and (max-width: 640px) {
     body {
-        max-width: 540px;
+        max-width: 640px;
     }
     #name,
     nav,
@@ -194,19 +194,17 @@ form {
         width: 100%;
         margin: 0px auto;
     }
-
-  .header {
+    .header {
         margin-bottom: 50px;
     }
     nav {
         position: static;
         margin: 0px auto;
     }
-
     .container {
-        clear: both; 
-        margin: 180px auto 30px; 
-        width: auto; 
+        clear: both;
+        margin: 180px auto 30px;
+        width: auto;
     }
     #profile-image {
         float: none;
@@ -215,6 +213,79 @@ form {
     }
     .paragraph {
         float: left;
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    body {
+        max-width: 740px;
+    }
+    #name,
+    nav,
+    .header,
+    .header-inner {
+        margin: 0px auto;
+    }
+    .header {
+        margin-bottom: 50px;
+        width: 740px;
+    }
+    nav {
+        width: 70%;
+        float: right;
+        position: static;
+    }
+    .container {
+        clear: both;
+        margin: 180px auto 30px;
+        width: auto;
+    }
+    #profile-image {
+        float: left;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .paragraph {
+        margin-left: 10px;
+        text-align: justify;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769) and (max-width: 980px) {
+    body {
+        max-width: 940px;
+    }
+    #name,
+    nav,
+    .header,
+    .header-inner {
+        margin: 0px auto;
+    }
+    .header {
+        margin-bottom: 50px;
+        width: 980px;
+    }
+    nav {
+        float: left;
+    }
+    .container {
+        clear: both;
+        margin: 180px auto 30px;
+        width: auto;
+    }
+    #profile-image {
+        float: left;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .paragraph {
+        margin-left: 10px;
         text-align: justify;
         width: 100%;
     }
