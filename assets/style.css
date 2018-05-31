@@ -184,11 +184,38 @@ form {
 /*Small Screen*/
 
 @media screen and (max-width: 640px) {
-
-    #name, .nav  {
-       width: 100%; 
-       text-align: left; 
-       
+    body {
+        max-width: 540px;
+    }
+    #name,
+    nav,
+    .header,
+    .header-inner {
+        width: 100%;
+        margin: 0px auto;
     }
 
+  .header {
+        margin-bottom: 50px;
+    }
+    nav {
+        position: static;
+        margin: 0px auto;
+    }
+
+    .container {
+        clear: both; 
+        margin: 180px auto 30px; 
+        width: auto; 
+    }
+    #profile-image {
+        float: none;
+        display: block;
+        margin: 3px auto;
+    }
+    .paragraph {
+        float: left;
+        text-align: justify;
+        width: 100%;
+    }
 }
